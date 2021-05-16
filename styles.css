@@ -1,0 +1,84 @@
+
+body{
+    background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+    font-family: 'Raleway', sans-serif;
+    color: #ffbe0b;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 75%;
+
+}
+#all{
+ position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#image{
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+
+}
+span{
+	position:relative;
+	font-size: 1.5em;
+	background: linear-gradient(21deg, #ffbe0b, #d04505);
+	padding: 3px;
+	display: inline-block;
+	border-radius: 1em;
+}
+#guessContainer{
+    padding: 10px;
+}
+
+#guessField{
+    position: relative;
+    font-size: 1em;
+	display: inherit;
+	border-radius: inherit;
+	margin: 0;
+	border: none;
+	outline: none;
+    padding: 0.5em;
+    background: dodgerblue linear-gradient(45deg, rgb(0, 170, 255), dodgerblue);
+    color: #ffbe0b;
+          
+}
+
+#resetContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+button{
+    font-size: 1.2em;
+    border-radius: 1em;
+    border: 3px solid #d04505;
+    background: none;
+    /* background: linear-gradient(21deg, #ffbe0b, #d04505); */
+    color: #ffbe0b;  
+}
+button:hover{
+    background: #ffbe0b;
+    color: #fff;
+}
+
